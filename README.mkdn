@@ -30,7 +30,7 @@ $ mkdir crDroid
 $ cd crDroid
 
 # Install Repo in the created directory
-$ repo init -u git://github.com/crdroidandroid/android.git -b 9.0
+$ repo init -u git://github.com/crDroid-Revived/android.git -b 9.0
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
@@ -39,7 +39,7 @@ and their change histories.
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync
+$ repo sync --force-sync
 ```
 
 ```bash
@@ -48,7 +48,7 @@ $ cd crDroid
 # ...and run to prepare our devices list
 $ . build/envsetup.sh
 # ... now run
-$ brunch "your device codename"
+$ brunch lineage_"your device codename"-userdebug
 ```
 
 ### 1.3 Automation ###
@@ -62,25 +62,16 @@ To submit changes/patches, please send a pull request on GitHub. We will review 
 
 ## 3. How to become an Official Maintainer ##
 
-Just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the device you want to maintain.
+Thats the neat part, you dont.
+As this is an unofficial fork I wont support official build types.
 
-## 4. Features, translations, forum template and OTA ##
+## 4. Features, translations and forum template ##
 
 ### 4.1 Features ###
 So you got a device build up and wondering where to start?  
-Well you can see all out ROM features in our [features repo](https://github.com/crdroidandroid/crdroid_features#crdroid-android).  
+Well you can see all out ROM features in our [features repo](https://github.com/crdroidandroid/crdroid_features#crdroid-android).
 
-### 4.2 Translations ###
-We use Crowdin for translations since is easy and everyone can do it.  
-To help out click [here](https://github.com/crdroidandroid/crdroid_features#translations).
-
-### 4.3 Forum template ###
+### 4.2 Forum template ###
 Build ready? Tested all features and translations are smooth?  
 Why not share your build over your beloved forums?  
 To do so, we have made a [small template](https://github.com/crdroidandroid/crdroid_features/blob/9.0/ForumPostTemplate) to help out. Just edit what you need and let the downlods roll. :sunglasses:  
-
-### 4.4 OTA ###
-So posted on forums and your users are enjoying your build.  
-Well you can help out your users by letting them know when you fix stuff in your builds with the help of our OTA app.   
-Since crDroid Oreo, if you want to be on the official maintainers list, you'll need to provide OTA access.  
-You can set it up really easy by completing the **update.xml** file on [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA) repo.
