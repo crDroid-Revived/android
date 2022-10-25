@@ -2,11 +2,6 @@
 <manifest>
 
   <!-- crDroid additions -->
-  <project path="build/soong" name="crdroidandroid/android_build_soong" remote="crdroid" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
