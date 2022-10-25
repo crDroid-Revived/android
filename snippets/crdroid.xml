@@ -28,6 +28,7 @@
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
+  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Recorder" name="crdroidandroid/android_packages_apps_Recorder" remote="crdroid" />

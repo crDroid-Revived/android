@@ -23,7 +23,6 @@
   <project path="frameworks/opt/net/wifi" name="crDroid-Revived/android_frameworks_opt_net_wifi" remote="crdroid" />
 
   <project path="packages/apps/Dialer" name="crDroid-Revived/android_packages_apps_Dialer" remote="crdroid" />
-  <project path="packages/apps/Messaging" name="crDroid-Revived/android_packages_apps_Messaging" remote="crdroid" />
   <project path="packages/apps/Settings" name="crDroid-Revived/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/providers/MediaProvider" name="crDroid-Revived/android_packages_providers_MediaProvider" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crDroid-Revived/android_packages_services_Telecomm" remote="crdroid" />
