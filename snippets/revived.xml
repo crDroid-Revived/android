@@ -33,4 +33,6 @@
   <project path="packages/services/Telephony" name="crDroid-Revived/android_packages_services_Telephony" remote="crdroid" />
 
   <project path="system/core" name="crDroid-Revived/android_system_core" remote="crdroid" />
+
+  <project path="vendor/lineage" name="crDroid-Revived/android_vendor_crdroid" remote="crdroid" />
 </manifest>
