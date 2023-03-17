@@ -21,6 +21,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/zlib" name="android_external_zlib" remote="crdroid-rev" />
+
   <project path="frameworks/av" name="android_frameworks_av" remote="crdroid-rev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="crdroid-rev" />
   <project path="frameworks/native" name="android_frameworks_native" remote="crdroid-rev" />
