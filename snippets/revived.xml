@@ -33,6 +33,7 @@
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="crdroid-rev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="crdroid-rev" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="crdroid-rev" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="crdroid-rev" />
 
   <project path="system/bt" name="android_system_bt" remote="crdroid-rev" />
   <project path="system/core" name="android_system_core" remote="crdroid-rev" />
