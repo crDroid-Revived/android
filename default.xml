@@ -36,8 +36,8 @@
            sync-j="4"
            revision="refs/heads/10.0" />
 
-  <remote name = "bb"
-           fetch = "https://bitbucket.org/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la" />
