@@ -21,6 +21,8 @@
 
   <remove-project name="LineageOS/android_system_bt" />
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <remove-project name="LineageOS/android_system_ca-certificates" />
+  <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
 
   <remove-project name="crdroidandroid/android_vendor_qcom_opensource_system_bt" />
   <project name="crDroid-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="crdroid" />
