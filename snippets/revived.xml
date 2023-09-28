@@ -21,6 +21,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/libvpx" name="android_external_libvpx" remote="crdroid-rev" />
   <project path="external/zlib" name="android_external_zlib" remote="crdroid-rev" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="crdroid-rev" />
