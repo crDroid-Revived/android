@@ -42,6 +42,7 @@
 
   <project path="system/bt" name="android_system_bt" remote="crdroid-rev" />
   <project path="system/core" name="android_system_core" remote="crdroid-rev" />
+  <project path="system/netd" name="android_system_netd" remote="crdroid-rev" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="crdroid-rev" />
 
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid-rev" />

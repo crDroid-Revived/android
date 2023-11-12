@@ -60,7 +60,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-7284624" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-7284624" remote="crdroid" clone-depth="1" />
 
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" remote="crdroid" />
-  <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
 
