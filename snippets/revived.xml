@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="crdroid/android" />
+  <project path="android" name="crDroid-Revived/android" remote="crdroid" />
+</manifest>

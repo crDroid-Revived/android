@@ -19,13 +19,13 @@
            sync-j="4" />
 
   <remote  name="crdroid"
-           fetch="https://github.com/"
+           fetch="https://github.com"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/11.0" />
 
   <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
+           fetch="https://gitlab.com"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/11.0" />
@@ -788,6 +788,7 @@
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/revived.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
