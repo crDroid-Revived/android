@@ -32,7 +32,8 @@
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
-
+  <remove-project name="platform/external/sonivox" />
+  <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
 
   <remove-project name="crdroidandroid/android_vendor_qcom_opensource_system_bt" />
   <project name="crDroid-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="crdroid" />
