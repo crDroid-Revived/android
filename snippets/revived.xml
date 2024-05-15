@@ -23,6 +23,8 @@
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_ca-certificates" />
   <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
+  <remove-project name="crdroidandroid/android_system_core" />
+  <project name="crDroid-Revived/android_system_core" path="system/core" remote="crdroid" />
   <remove-project name="LineageOS/android_system_timezone" />
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
