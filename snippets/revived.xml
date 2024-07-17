@@ -19,7 +19,7 @@
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/sonivox" />
-  <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
+  <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
 
   <remove-project name="crdroidandroid/android_frameworks_av" />
   <project name="crDroid-Revived/android_frameworks_av" path="frameworks/av" remote="crdroid" />
@@ -31,8 +31,11 @@
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <project name="crDroid-Revived/android_packages_apps_Settings" path="packages/apps/Settings" remote="crdroid" />
 
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+
   <remove-project name="LineageOS/android_system_bt" />
-  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <project name="lin18-microg/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_ca-certificates" />
   <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
   <remove-project name="crdroidandroid/android_system_core" />
