@@ -26,6 +26,8 @@
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project name="crDroid-Revived/android_frameworks_base" path="frameworks/base" remote="crdroid" />
 
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
   <project name="crDroid-Revived/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crdroid" />
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
