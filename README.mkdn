@@ -72,11 +72,7 @@ SystemUI
 ```overlay/frameworks/base/packages/SystemUI/res/values/config.xml```  
 [https://github.com/crdroidandroid/android_frameworks_base/blob/11.0/packages/SystemUI/res/values/cr_config.xml](https://github.com/crdroidandroid/android_frameworks_base/blob/11.0/packages/SystemUI/res/values/cr_config.xml)
 
-### 3.2 Translations ###
-We use Crowdin for translations since is easy and everyone can do it.  
-To help out click [here](https://github.com/crdroidandroid/crdroid_features#translations).
-
-### 3.3 Forum template ###
-Build ready? Tested all features and translations are smooth?  
-Why not share your build over your beloved forums?  
+### 3.2 Forum template ###
+Build ready? Tested all features?
+Why not share your build over your beloved forums?
 To do so, we have made a [small template](https://github.com/crdroidandroid/crdroid_features/blob/11.0/ForumPostTemplate) to help out. Just edit what you need and let the downlods roll. :sunglasses:
