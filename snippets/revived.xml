@@ -55,4 +55,8 @@
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <project name="crDroid-Revived/android_vendor_crdroid" path="vendor/lineage" remote="crdroid" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
+  <!-- MindTheGapps -->
+  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
+  <!-- MicroG -->
+  <project name="lineageos4microg/android_vendor_partner_gms" path="vendor/partner_gms" clone-depth="1" revision="master" />
 </manifest>
