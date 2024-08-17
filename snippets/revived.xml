@@ -57,7 +57,7 @@
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
   <project name="LineageOS-Revived/android_vendor_extra" path="vendor/extra" />
   <!-- MindTheGapps -->
-  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
+  <project name="roms-experimental/android_vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
   <!-- MicroG -->
   <project name="lineageos4microg/android_vendor_partner_gms" path="vendor/partner_gms" clone-depth="1" revision="master" />
 </manifest>
