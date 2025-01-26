@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="crdroidandroid/android" />
-  <project path="android" name="crDroid-Revived/android" remote="crdroid" />
+  <project name="crDroid-Revived/android" path="android" remote="crdroid" />
 
   <remove-project name="crdroidandroid/android_build" />
   <project name="crDroid-Revived/android_build" path="build/make" remote="crdroid" >
@@ -18,6 +18,8 @@
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+  <remove-project name="crdroidandroid/android_external_skia" />
+  <project name="crDroid-Revived/android_external_skia" path="external/skia" remote="crdroid" />
   <remove-project name="platform/external/sonivox" />
   <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
 
@@ -25,7 +27,16 @@
   <project name="crDroid-Revived/android_frameworks_av" path="frameworks/av" remote="crdroid" />
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project name="crDroid-Revived/android_frameworks_base" path="frameworks/base" remote="crdroid" />
+  <remove-project name="crdroidandroid/android_frameworks_native" />
+  <project name="crDroid-Revived/android_frameworks_native" path="frameworks/native" remote="crdroid" />
+  <remove-project name="crdroidandroid/android_frameworks_opt_net_wifi" />
+  <project name="crDroid-Revived/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="crdroid" />
 
+  <remove-project name="crdroidandroid/android_libcore" />
+  <project name="crDroid-Revived/android_libcore" path="libcore" remote="crdroid" />
+
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <project name="lin18-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
@@ -38,6 +49,11 @@
 
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+
+  <remove-project name="crdroidandroid/android_packages_services_Telecomm" />
+  <project name="crDroid-Revived/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="crdroid" />
+  <remove-project name="crdroidandroid/android_packages_services_Telephony" />
+  <project name="crDroid-Revived/android_packages_services_Telephony" path="packages/services/Telephony" remote="crdroid" />
 
   <remove-project name="LineageOS/android_system_bt" />
   <project name="lin18-microg/android_system_bt" path="system/bt" />
@@ -52,6 +68,7 @@
 
   <remove-project name="crdroidandroid/android_vendor_qcom_opensource_system_bt" />
   <project name="crDroid-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="crdroid" />
+
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <project name="crDroid-Revived/android_vendor_crdroid" path="vendor/lineage" remote="crdroid" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
