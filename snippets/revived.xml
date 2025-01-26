@@ -45,7 +45,7 @@
   <project name="crDroid-Revived/android_packages_apps_Settings" path="packages/apps/Settings" remote="crdroid" />
 
   <remove-project name="platform/packages/modules/NetworkStack" />
-  <project name="LineageOS-Revived/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
+  <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" revision="lin-18.1-microG" />
 
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
