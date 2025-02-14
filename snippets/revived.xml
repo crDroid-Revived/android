@@ -66,7 +66,7 @@
   <remove-project name="LineageOS/android_system_timezone" />
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
+  <remove-project name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
   <project name="lin18-microG/android_vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" />
   <remove-project name="crdroidandroid/android_vendor_qcom_opensource_system_bt" />
   <project name="crDroid-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="crdroid" />
