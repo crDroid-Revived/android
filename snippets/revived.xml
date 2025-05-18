@@ -20,6 +20,8 @@
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
   <remove-project name="platform/external/dng_sdk" />
   <project name="lin18-microg/android_external_dng_sdk" path="external/dng_sdk" remote="codeberg" />
+  <remove-project name="crdroidandroid/android_external_cldr" />
+  <project name="crDroid-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="crdroidandroid/android_external_skia" />
