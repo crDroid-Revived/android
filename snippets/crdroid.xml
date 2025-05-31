@@ -16,7 +16,7 @@
   <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
   <project path="external/moto/faceunlock" name="crdroidandroid/android_external_moto_faceunlock" remote="crdroid-gitlab" />
-  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
+  <!-- <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" /> -->
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/tinyxml2" name="crdroidandroid/android_external_tinyxml2" remote="crdroid" />
 
@@ -30,7 +30,7 @@
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" />
   <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
 
-  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
+  <!-- <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" /> -->
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
