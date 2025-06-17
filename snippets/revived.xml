@@ -47,6 +47,8 @@
   <project name="lin18-microG/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
+  <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
+  <project name="lin18-microG/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" remote="codeberg" />
   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
   <project name="crDroid-Revived/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crdroid" />
   <remove-project name="crdroidandroid/android_packages_apps_PackageInstaller" />
