@@ -21,6 +21,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/libpng" name="android_external_libpng" remote="crdroid-rev" />
   <project path="external/libxml2" name="android_external_libxml2" remote="crdroid-rev" />
   <project path="external/libvpx" name="android_external_libvpx" remote="crdroid-rev" />
   <project path="external/skia" name="android_external_skia" remote="crdroid-rev" />

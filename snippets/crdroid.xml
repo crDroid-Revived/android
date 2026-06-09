@@ -12,7 +12,7 @@
   <project path="external/f2fs-tools" name="crdroidandroid/android_external_f2fs-tools" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
-  <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
+  <!--project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" /-->
   <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
   <project path="external/moto/faceunlock" name="crdroidandroid/android_external_moto_faceunlock" remote="crdroid-gitlab" />
