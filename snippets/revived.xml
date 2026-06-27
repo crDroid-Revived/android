@@ -24,6 +24,8 @@
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="crdroidandroid/android_external_libjpeg-turbo" />
   <project name="crDroid-Revived/android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="crdroid" />
+  <remove-project name="crdroidandroid/android_external_libpng" />
+  <project name="crDroid-Revived/android_external_libpng" path="external/libpng" remote="crdroid" />
   <remove-project name="crdroidandroid/android_external_skia" />
   <project name="crDroid-Revived/android_external_skia" path="external/skia" remote="crdroid" />
 
